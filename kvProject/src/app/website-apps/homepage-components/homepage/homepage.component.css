@@ -1,0 +1,126 @@
+* {
+    background-color: #1E1924;
+}
+
+#navbar-background {
+    padding-top: 15vh; 
+    background-image: url("../../../../assets/navbar/navbarbackground.png");
+}
+
+#navbar-background>div {
+    display: flex;
+    background: none;
+}
+
+/* -- Navbar content */
+#navbar-content {
+    height: 70vh;
+    position: relative;
+    background-color: none;
+}
+
+/* sección del nombre */
+#navbar-content-name {
+    background: none;
+}
+
+#name-hi, #name-john, #name-kervin {
+    left: 15vw;
+    background: transparent;
+    position: relative;
+}
+
+#name-hi {
+    top: 5vh;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+#name-john {
+    left: 17vw;
+    font-size: 16vh;
+    font-weight: bolder;
+    color: #FF2C7B;
+    z-index: 1000;
+}
+
+#name-kervin {
+    top: -10vh;
+    left: 20vw;
+    font-size: 16vh;
+    font-weight: bolder;
+    z-index: 1000;
+}
+
+/* sección de la foto y introducción */
+#navbar-content-introduction {
+    display: flex;
+    background: transparent;
+    overflow: hidden;
+    align-items: center;
+}
+
+#navbar-content-int-image {
+    top: 0.5vw;
+    margin-left: 10vw;
+    background: transparent;
+    position: relative;
+    z-index: 300;
+}
+
+#imgofme {
+    height: 60vh;
+    background: transparent;
+    position: relative;
+}
+
+#navbar-content-int-image-shadow {
+    top: 1.5vw;
+    left: -25vw;
+    background: transparent;
+    position: relative;
+    z-index: 200;
+}
+
+#imgofme2 {
+    height: 60vh;
+    position: relative;
+    background: transparent;
+}
+
+#navbar-content-int-text {
+    left: -25vw;
+    background: transparent;
+    position: relative;
+}
+
+#navbar-content-int-text-content {
+    width: 18vw;
+    background: transparent;
+}
+
+#navbar-content-int-text-content > span {
+    text-align: justify;
+}
+
+.caption {
+    font-size: 3vh;
+    font-weight: bolder;
+    background: transparent;
+}
+
+#caption-over-second {
+    z-index: 400;
+}
+
+.caption-top {
+    top: -1.5vh;
+    position: relative;
+    z-index: 300;
+}
+
+.welcome-tag {
+    font-weight: bolder;
+    color: #FF2C7B;
+}
+
